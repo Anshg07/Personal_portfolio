@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background:#010e1b;
+  /* background:#010e1b; */
   background-size: cover;
   background-image: url("../img/background/dark-geometric-background-with-copy-space.jpg");
   left: 0;
@@ -657,7 +657,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #09203a;
+  background:;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -712,7 +712,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #042e5f;
+  background: #0e161c;
   border-color: #1c7d32;
 }
 
@@ -896,7 +896,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: #09203a;
+  background: #1b2831;
 }
 
 .contact .info-box i.bx {
