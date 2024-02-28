@@ -14,6 +14,7 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+  text-align: justify;
 }
 
 body::before {
@@ -22,7 +23,7 @@ body::before {
   /* background:#010e1b; */
   background-size: cover;
   background-image: url("../img/background/dark-geometric-background-with-copy-space.jpg");
-  left: 0;
+  left: 0;  
   right: 0;
   top: 0;
   height: 100vh;
