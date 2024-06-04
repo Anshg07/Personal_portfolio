@@ -11,8 +11,6 @@
 
 #### Projects Page
 <img src="" width="900">
-  
-
 
 :star: Star me on GitHub — it helps!
 
