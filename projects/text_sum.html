@@ -1,9 +1,8 @@
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Text2Image Generator</title>
+    <title>NLTK Text Summarizer</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
@@ -30,46 +29,61 @@
             <div class="row">
                 <div class="col-lg-12 portfolio-info">
                     <br>
-                    <h2 style="color:#12d640">Text2Image Generator</h2>
+                    <h2 style="color:#12d640">NLTK Text Summarizer</h2>
                     <ul>
-                        <li><strong>Tech Stack</strong>: Python, Matplotlib, PyTorch, Diffusers</li>
-                        <li><strong>Github URL</strong>: <a href="https://github.com/Anshg07/Image_generator" target="_blank">Project Link</a></li>
+                        <li><strong>Tech Stack</strong>: Python, NLTK, Streamlit</li>
+                        <li><strong>Github URL</strong>: <a href="https://github.com/Anshg07/NLTK_Text" target="_blank">Project Link</a></li>
                     </ul>
                     <p>
-                        This project utilizes the DreamShaper XL model for text-to-image generation. Given a text prompt, the model generates an image corresponding to the input text. The project employs the `diffusers` library for efficient generation and utilizes GPU acceleration for faster processing.
+                        The NLTK Text Summarizer is a Streamlit web application designed to summarize text using natural language processing techniques. Leveraging the power of the Natural Language Toolkit (NLTK), the app analyzes the input text to identify key points and generate a concise summary. Users can adjust the length of the summary by specifying the desired number of sentences. This tool is particularly useful for quickly grasping the main ideas of longer texts, including articles, reports, and essays.
                     </p>
                     <p>
-                        <strong>Setup Instructions</strong>:
+                        <strong>Setup and Installation</strong>:
                         <ul>
-                            <li>Ensure you have Python installed on your system.</li>
-                            <li>Install the required libraries:
-                                <pre><code>pip install matplotlib torch diffusers</code></pre>
+                            <li><strong>Prerequisites</strong>:
+                                <ul>
+                                    <li>Python 3.6 or higher</li>
+                                    <li>pip</li>
+                                </ul>
+                            </li>
+                            <li><strong>Installation Steps</strong>:
+                                <ul>
+                                    <li>Clone the repository or download the <code>nltk_txt.py</code> script.</li>
+                                    <li>Install Streamlit and NLTK if you haven't already:
+                                        <pre><code>pip install streamlit nltk</code></pre>
+                                    </li>
+                                    <li>Run the Streamlit app:
+                                        <pre><code>streamlit run nltk_txt.py</code></pre>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </p>
                     <p>
                         <strong>Usage</strong>:
                         <ul>
-                            <li>Run the provided script in your Python environment.</li>
-                            <li>Enter your desired text prompt when prompted.</li>
-                            <li>The script will generate and display the corresponding image.</li>
+                            <li>Once the app is running, navigate to the displayed URL in your web browser.</li>
+                            <li>Enter the text you wish to summarize in the text area provided.</li>
+                            <li>Use the slider to select the number of sentences you want in your summary.</li>
+                            <li>Click the "Summarize" button to generate and view the summary.</li>
                         </ul>
                     </p>
                     <p>
-                        <strong>Note</strong>:
+                        <strong>Features</strong>:
                         <ul>
-                            <li>Ensure you have a CUDA-enabled GPU for faster image generation.</li>
-                            <li>Adjust `num_inference_steps` and `guidance_scale` parameters for different image generation settings.</li>
-                            <li>For any issues or inquiries, please refer to the documentation of `diffusers` or the respective model documentation.</li>
+                            <li>Text summarization using NLTK's corpus and tokenization methods.</li>
+                            <li>Adjustable summary length through a user-friendly slider.</li>
+                            <li>Intuitive Streamlit interface for easy interaction.</li>
                         </ul>
                     </p>
                     <p>
-                        <strong>Some Generated Examples</strong>:
-                        <br>
-                        <img src="https://github.com/Anshg07/Image_generator/assets/96684989/078c33a5-aa70-4f65-9641-d3d7a736c68a" alt="Example Image 1" style="width:100%;">
-                        <img src="https://github.com/Anshg07/Image_generator/assets/96684989/66dec28f-c4d8-4de8-a5cf-62c87a15a2ad" alt="Example Image 2" style="width:100%;">
-                        <img src="https://github.com/Anshg07/Image_generator/assets/96684989/9fcfdc7d-af74-4183-9591-3809eb4038ae" alt="Example Image 3" style="width:100%;">
-                        <img src="https://github.com/Anshg07/Image_generator/assets/96684989/d52cabd8-b620-405a-a8a3-feb1684499b5" alt="Example Image 4" style="width:100%;">
+                        <strong>Contributing</strong>:
+                        <ul>
+                            <li>Reporting bugs</li>
+                            <li>Suggesting enhancements</li>
+                            <li>Submitting pull requests with improvements to code or documentation</li>
+                        </ul>
+                        Please feel free to fork the repository and submit pull requests with your changes!
                     </p>
                 </div>
             </div>
@@ -93,8 +107,8 @@
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
-            (i[r].q = i[r.q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
+            (i[r.q = i[r.q || []).push(arguments)
+        }, i[r.l = 1 * new Date();
         a = s.createElement(o),
             m = s.getElementsByTagName(o)[0];
         a.async = 1;
